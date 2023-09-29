@@ -4,10 +4,12 @@ int main() {
     int suma = 0;
     int liczba;
     
-    while (suma < 200){
+    do{
         cout << "Podaj liczbe: ";
         cin >> liczba;
         suma += liczba;
     }
-    cout << "Suma jest 200 lub wiecej" << endl;
+    
+    while (suma < 200);
+    cout << "Suma jest rowna 200 lub wiecej" << endl;
 }
